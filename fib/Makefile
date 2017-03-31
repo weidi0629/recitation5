@@ -1,4 +1,4 @@
-CC := gcc
+CC := icc
 CFLAGS := -O3 -g -gdwarf-3 -fcilkplus
 LDFLAGS := -lcilkrts -ldl
 
