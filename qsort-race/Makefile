@@ -2,7 +2,7 @@
 # Makefile for the qsort-race example.
 #
 
-CC = gcc
+CC = icc
 CFLAGS = -std=gnu99 -O0 -g -gdwarf-3 -fcilkplus
 LDFLAGS = -ldl -lcilkrts
 
