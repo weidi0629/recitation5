@@ -1,4 +1,4 @@
-CC = gcc
+CC = icc
 CFLAGS = -O3 -g -Werror -gdwarf-3 -std=gnu99 -fcilkplus
 LDFLAGS = -ldl -lcilkrts
 
